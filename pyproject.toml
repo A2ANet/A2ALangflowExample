@@ -1,7 +1,14 @@
 [project]
 name = "a2alangflowexample"
 version = "0.1.0"
-description = "Add your description here"
+description = "An example of how to use the A2A protocol with Langflow"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "a2a-sdk>=0.2.8",
+    "loguru>=0.7.3",
+    "pydantic>=2.11.7",
+    "requests>=2.32.4",
+    "starlette>=0.46.2",
+    "uvicorn>=0.34.3",
+]
